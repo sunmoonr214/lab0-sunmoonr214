@@ -1,0 +1,160 @@
+                /* Ignore following classes */
+                
+                * {
+                    font-family: "Montserrat", sans-serif;
+                    background-color: #eeeeee;
+                }
+                
+                #intro {
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                    margin: 50px;
+                }
+                
+                .over {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                .img {
+                    position: absolute;
+                    left: 50%;
+                    right: 50%;
+                }
+                
+                .insideborder {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                
+                .square {
+                    position: relative;
+                    left: 20px;
+                    top: 20px;
+                    height: 50px;
+                    width: 50px;
+                    z-index: 10;
+                }
+                
+                .greece {
+                    background-image: repeating-linear-gradient(180deg, #0d5eaf, #0d5eaf 13.333px, #fff 13.33333px, #fff 23.867px);
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+                }
+                
+                .greece:before {
+                    position: absolute;
+                    content: "";
+                    width: 130.66667px;
+                    height: 130.66667px;
+                    background: linear-gradient(180deg, transparent 52.66667px, #fff 52.66667px, #fff 80px, transparent 40px), linear-gradient(90deg, transparent 52.66667px, #fff 52.66667px, #fff 80px, transparent 40px), #0d5eaf;
+                    scale: 200%;
+                }
+                
+                .elevenhorizw {
+                    height: 20%;
+                    width: 70%;
+                }
+                
+                .main {
+                    height: 55%;
+                }
+                
+                .para {
+                    font-weight: 300;
+                    margin-left: 10px;
+                }
+                
+                h2 {
+                    font-size: medium;
+                    font-weight: 200;
+                }
+                /* Classes that you might find useful */
+                /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+                
+                .mexicanflag {}
+                
+                .flag {
+                    height: 300px;
+                    width: 450px;
+                    border-style: solid;
+                    margin-bottom: 5rem;
+                }
+                
+                .horiz {
+                    display: flex;
+                    flex-direction: row;
+                }
+                
+                .threehoriz {
+                    width: 33.3%;
+                }
+                
+                .twovert {
+                    height: 50%;
+                }
+                
+                .threevert {
+                    height: 33.3%;
+                }
+                
+                .sixvert {
+                    height: 16.6%;
+                }
+                
+                .threehoriz {
+                    width: 33.3%;
+                }
+                
+                .skinny {
+                    height: 17.5%;
+                }
+                
+                .fat {
+                    height: 30%;
+                }
+                
+                .circle {
+                    border-radius: 50%;
+                    height: 50%;
+                    width: 100%;
+                    position: relative;
+                    left: 0px;
+                    top: 75px;
+                }
+                /* Colors/ Feel free to add your own! */
+                
+                .red {
+                    background-color: red;
+                }
+                
+                .orange {
+                    background-color: orange;
+                }
+                
+                .yellow {
+                    background-color: yellow;
+                }
+                
+                .green {
+                    background-color: green;
+                }
+                
+                .blue {
+                    background-color: blue;
+                }
+                
+                .lightblue {
+                    background-color: lightblue;
+                }
+                
+                .purple {
+                    background-color: purple;
+                }
+                
+                .white {
+                    background-color: #fff;
+                }
